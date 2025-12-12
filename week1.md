@@ -30,8 +30,8 @@ This setup was used to mirror the NAT and host-only adapter architecture used in
 ## Command-Line Evidence
 ### Hostname Verification
 
-Command used:
-    hostname
+**Command used:**
+`hostname`
 
 This confirms that the server hostname is correctly configured.
 
@@ -40,8 +40,8 @@ This confirms that the server hostname is correctly configured.
 
 ### Network Interfaces
 
-Command used:
-    ip a
+**Command used:**
+`ip a`
 
 This shows the active network interfaces and assigned IP addresses.
 
@@ -50,8 +50,8 @@ This shows the active network interfaces and assigned IP addresses.
 
 ### Routing Table
 
-Command used:
-    ip route
+**Command used:**
+`ip route`
 
 This confirms the default gateway and routing configuration.
 
@@ -60,8 +60,8 @@ This confirms the default gateway and routing configuration.
 
 ### Internet Connectivity Test
 
-Command used:
-    ping -c 3 google.com
+**Command used:**
+`ping -c 3 google.com`
 
 Successful replies confirm external network connectivity.
 
