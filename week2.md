@@ -17,7 +17,7 @@ control using standard Linux administration commands.
 ### User Creation
 A new user account named `testuser` was created using the adduser command. This automatically created a home directory and assigned a primary group to the user.
 
-Command used:  
+**Command used:**  
 `sudo adduser testuser`
 
 ![User creation](images/week2_adduser.png)
@@ -27,7 +27,7 @@ Command used:
 ### Assigning Sudo Privileges
 The user was added to the sudo group to allow administrative privileges. Group membership was then checked to confirm the change.
 
-Commands used:  
+**Commands used:**  
 `sudo usermod -aG sudo testuser`  
 `groups testuser`
 
@@ -38,7 +38,7 @@ Commands used:
 ### Switching User
 The active session was switched to the newly created user. The whoami command was used to confirm the current logged-in user.
 
-Commands used:  
+**Commands used:**  
 `su - testuser`  
 `whoami`
 
@@ -49,7 +49,7 @@ Commands used:
 ### File Ownership and Permissions
 While logged in as testuser, a file was created in the home directory. File permissions and ownership were verified to ensure correct access rights.
 
-Commands used:  
+**Commands used:**  
 `touch testfile.txt`  
 `ls -l testfile.txt`
 
