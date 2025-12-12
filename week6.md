@@ -10,7 +10,7 @@ Week 6 focused on evaluating system performance and analysing system behaviour u
 ### System Activity and Logs
 System logs were examined to observe general system behaviour and background processes.
 
-**Comand used:**
+**Command used:**
 `journalctl -n 20`
 
 ![Recent system logs](images/week6_journalctl_recent.png)
@@ -20,7 +20,7 @@ System logs were examined to observe general system behaviour and background pro
 ### SSH Service Activity
 Logs related to the SSH service were reviewed to confirm service availability and startup events.
 
-**Comand used:**
+**Command used:**
 `journalctl -u ssh`
 
 ![SSH service logs](images/week6_journalctl_ssh.png)
@@ -30,10 +30,10 @@ Logs related to the SSH service were reviewed to confirm service availability an
 ### Warning-Level Messages
 System logs were filtered to display warning-level messages, helping to identify non-critical system issues.
 
-**Comand used:**
+**Command used:**
 `journalctl -p warning`
 
 ![Warning logs](images/week6_journalctl_warning.png)
 
 ## Review
-This week strengthened understanding of system performance evaluation and log analysis. Reviewing system logs, SSH activity, and cron execution records provided insight into background processes and system stability, helping develop confidence in monitoring and maintaining a Linux server.
+This week strengthened understanding of system performance evaluation and log analysis. Reviewing system logs and SSH activity records provided insight into background processes and system stability, helping develop confidence in monitoring and maintaining a Linux server.
