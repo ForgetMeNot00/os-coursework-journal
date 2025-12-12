@@ -1,4 +1,4 @@
-# Week 3 – Application Selection for Performance Testing
+# Week 3 – Package Management and Software Installation
 
 [← Previous Week](week2.md) | [Next Week →](week4.md)
 
