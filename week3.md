@@ -19,7 +19,7 @@ The package list was updated to ensure the system was aware of the latest availa
 Installed packages were upgraded to their latest versions to improve security and stability.
 
 **Command used:**   
-`apt install htop`
+`apt list --upgradble`
 
 ![APT upgrade](images/week3_apt_upgrade.png)
 
