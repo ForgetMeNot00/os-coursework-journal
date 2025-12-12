@@ -8,7 +8,7 @@ Week 3 focused on managing software packages on the Linux server. This included 
 ## System Updates
 The package list was updated to ensure the system was aware of the latest available software versions.
 
-Command used:  
+**Command used:**  
 `sudo apt update`
 
 ![APT update](images/week3_apt_update.png)
@@ -28,7 +28,7 @@ Installed packages were upgraded to their latest versions to improve security an
 ## Software Installation
 The htop package was installed to provide an interactive process monitoring tool.
 
-Command used:  
+**Command used:**  
 `sudo apt install htop`
 
 ![Install htop](images/week3_install_htop.png)
@@ -38,7 +38,7 @@ Command used:
 ## Software Verification
 The installed software was executed to confirm successful installation.
 
-Command used:  
+**Command used:**  
 `htop`
 
 ![htop running](images/week3_htop_running.png)
@@ -46,4 +46,4 @@ Command used:
 ---
 
 ## Review
-Week 3 developed practical skills in Linux package management using the APT package manager. Updating and upgrading the system reinforced good maintenance practices, while installing and verifying new software demonstrated effective software management on a Linux server.
+Week 3 developed practical skills in Linux package management using the APT package manager. Updating and upgrading the system reinforced good maintenance practices, while installing and verifying new software demonstrated effective software management within a Linux server.
