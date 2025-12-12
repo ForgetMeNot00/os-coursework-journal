@@ -1,5 +1,7 @@
 # Week 1 – System Planning and Distribution Selection
+
 [Next Week →](week2.md)
+
 ## Overveiw
 With week 1 the aim was to plan and deploy a headlss Linux server and verify basic system and network functions using tools. Due to my hardware restaints (Apple M1) I was forced to pivot to UTM instead of VirtualBox, which was used to host the VM while still meeting all coursework requirements.
 ## System Architecture Diagram
