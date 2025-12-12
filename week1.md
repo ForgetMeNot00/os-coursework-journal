@@ -2,6 +2,15 @@
 [Next Week →](week2.md)
 ## Overveiw
 With week 1 the aim was to plan and deploy a headlss Linux server and verify basic system and network functions using tools. Due to my hardware restaints (Apple M1) I was forced to pivot to UTM instead of VirtualBox, which was used to host the VM while still meeting all coursework requirements.
+## System Architecture Diagram
+
+The diagram below shows the system architecture used in Week 1. 
+The Ubuntu Server runs as a headless virtual machine inside UTM, while 
+administration is performed remotely from the host MacBook using SSH 
+over a shared network (NAT).
+
+![System architecture diagram](images/week1_architecture.png)
+
 ## System Setup
 - **Host machine:** Apple MacBook (M1)
 - **Virtualisation platform:** UTM
