@@ -1,4 +1,4 @@
-# Week 4 – Initial System Configuration & Security Implementation
+# Week 4 – Service Management with systemd
 
 [← Previous Week](week3.md) | [Next Week →](week5.md)
 
