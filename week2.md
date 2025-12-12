@@ -1,4 +1,4 @@
-# Week 2 – Security Planning & Testing Methodology
+# Week 2 – User and Group Management
 
 [← Previous Week](week1.md) | [Next Week →](week3.md)
 
