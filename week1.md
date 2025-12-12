@@ -17,7 +17,43 @@ Two network interfaces were configured:
 
 This setup was used to mirror the NAT and host-only adapter architecture used in VirtualBox.
 ## Command-Line Evidence
-
 ### Hostname Verification
-```bash
-hostname
+
+Command used:
+    hostname
+
+This confirms that the server hostname is correctly configured.
+
+![Hostname output](images/week1_hostname.png)
+
+
+### Network Interfaces
+
+Command used:
+    ip a
+
+This shows the active network interfaces and assigned IP addresses.
+
+![Network interfaces](images/week1_ip_a.png)
+
+
+### Routing Table
+
+Command used:
+    ip route
+
+This confirms the default gateway and routing configuration.
+
+![Routing table](images/week1_ip_route.png)
+
+
+### Internet Connectivity Test
+
+Command used:
+    ping -c 3 google.com
+
+Successful replies confirm external network connectivity.
+
+![Ping test](images/week1_ping.png)
+## Review
+Week 1 was able to successfully achieve the goal of deploying a headles Ubuntu Server VM and verifying basic system and network functionality. The main challenge I faced was adapting and moving to UTM from VirtualBox due to the Apple M1 hardware, which made me use UTM instead of VirtualBox, but this did not prevent me from meeting coursework requirements. Through this process, I gained a clearer understanding of Linux networking concepts, this includes interfaces, routing tables, and NAT-based connectivity. Verifying connectivity using command-line tools reinforced the importance of basic diagnostic commands in server administration. In the next week, I will build on this foundation by focusing on remote access and further system configuration.
